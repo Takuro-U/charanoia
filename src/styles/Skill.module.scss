@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: start;
+  //
+  width: 100%;
+  //
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  //
+  clip-path: inset(0 5% 0 5%);
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 90%;
+  //
+  margin: 0 5%;
+  //
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  //
+  scroll-snap-align: center;
+}
+
+.scrollBar {
+  display: flex;
+  justify-content: center;
+  //
+  width: 100%;
+  //
+  margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+.sideMenu {
+  position: fixed;
+  top: 8vh;
+  right: 0;
+  z-index: 40;
+  //
+  width: 50vw;
+  height: 84vh;
+  //
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
